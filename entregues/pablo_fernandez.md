@@ -1,7 +1,10 @@
 
-# PROVA
+# VERSIÓ 1.0
+
+Només agafarem els números que siguin majors de 2
 
 ```
+
 create function dbo.mElsQuedo( @nJugador int, @punts int ) 
 returns bit
 as begin
