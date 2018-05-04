@@ -1,4 +1,5 @@
 # Joc
+Esta función mira si el número dado es menor que 3 entonces es para él o para mi
 ```
 create function dbo.mElsQuedo (
 @n_jugador as int,
