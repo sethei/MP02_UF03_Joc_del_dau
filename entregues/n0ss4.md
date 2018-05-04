@@ -1,11 +1,10 @@
-# Funció mElsQuedo
+# Joc del Dau
+## Funció mElsQuedo
 
-<ul>
-<li>La meva funció recull els punts totals dels dos jugadors. </li>
-<li>En el primer if comprova si l'altre jugador te més punts que actual, si es així i la tirada dels daus es igual o més gran que 4 se la queda.</li>
-<li>En el segon if comprova si el jugador actual té més punts que l'altre o si son iguals, si es així se la queda.</li>
-<li>I finalment un else que deixara sempre amb 0 quan no siguin aquests dos casos.</li>
-</ul>
+- La meva funció recull els punts totals dels dos jugadors.
+- En el primer if comprova si l'altre jugador te més punts que actual, si es així i la tirada dels daus es igual o més gran que 4 se la queda.
+- En el segon if comprova si el jugador actual té més punts que l'altre o si son iguals, si es així se la queda.
+- I finalment un else que deixara sempre amb 0 quan no siguin aquests dos casos.
 
 ```
 create function mElsQuedo (
