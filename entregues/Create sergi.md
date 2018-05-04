@@ -1,5 +1,5 @@
-# Function-pova
-Aquest es un fitxer de proves
+# Function-Sergi
+Aquesta funció agafa la puntuació sempre que el nombre sigui major o igual a tres. Si el nombre es menor a tres només l'agafa si la puntuació del rival menys dos punts es superior a la puntuació del jugador.
 ```
 CREATE FUNCTION Mels_quedo
 (
@@ -7,7 +7,7 @@ CREATE FUNCTION Mels_quedo
 )
 RETURNS bit
 AS BEGIN
-	DECLARE @Total as int, @Totalrival as int
+	DECLARE @Meus as bit, @Total as int, @Totalrival as int
 	SET @Total = (SELECT SUM(punts_anotats)
 			FROM Marcador M
 			WHERE n_jugador_anota=@N_jugador)
@@ -16,16 +16,19 @@ AS BEGIN
 				WHERE n_jugador_anota!=@N_jugador)
 	IF (@Punts>=3)
 		BEGIN
-			RETURN 1
+			SET @Meus =1
 		END
 	ELSE
 		BEGIN
 			IF (@Punts<3 AND @Totalrival-2>@Total)
 				BEGIN
-					RETURN 1
+					SET @Meus =1
 				END
-			RETURN 0
+			ELSE
+				BEGIN
+					SET @Meus =0
+				END
 		END
-	RETURN 0
+	RETURN @Meus
 END
 ```
