@@ -1,4 +1,4 @@
-# Versió de proba
+# Versió de prova
 
 La meva funció retorna  un boleà, si no es queda amb els punts retorna un 0, i si es queda els punts retorna un 1.
 
