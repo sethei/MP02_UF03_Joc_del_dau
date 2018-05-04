@@ -1,7 +1,9 @@
-#Jocs de daus
-Hem quedo els punts a partir de igual o més gran de 3.
+# Jocs de daus
+
+- Hem quedo els punts a partir de igual o més gran de 3.
+
 ```
-create function meLoquedo(@jugador as int, @punts as int)
+create function meLoQuedo(@jugador as int, @punts as int)
 returns bit
 as begin
         declare @quedat as bit;
