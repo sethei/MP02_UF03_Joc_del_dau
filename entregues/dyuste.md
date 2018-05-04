@@ -1,7 +1,7 @@
 
 # VERSIÓ DE PROVA
 
-##### Agafarem el dau sempre que sigui 3 o mes gran.
+Agafarem el dau sempre que sigui 3 o més gran.
 
 ```
 create function dbo.mElsQuedo( @nJugador  int, @punts  int ) 
