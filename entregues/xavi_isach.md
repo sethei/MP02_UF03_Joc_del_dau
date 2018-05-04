@@ -1,4 +1,4 @@
-# Versió de prova
+# Versió definitiva
 
 La funció retorna si t'els quedes o no.
 
