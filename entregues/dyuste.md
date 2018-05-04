@@ -1,5 +1,5 @@
 
-# VERSIÓ DE PROVA
+# VERSIÓ DEFINITIVA
 
 Agafarem el dau sempre que sigui 3 o més gran.
 
