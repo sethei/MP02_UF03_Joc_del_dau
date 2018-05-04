@@ -1,5 +1,5 @@
 
-# PROVA
+# VERSIÓ 1.0
 
 Només agafarem els números que siguin majors de 2
 
